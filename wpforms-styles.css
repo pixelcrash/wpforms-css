@@ -1,0 +1,111 @@
+.wpforms-field-container{
+  width: 100%;
+  background: rgba(255,255,240,0.1);
+}
+
+.wpforms-field-large{
+  width: 100%;
+  padding: 10px 10px !important;
+  font-size: 24px;
+  line-height: 36px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin-bottom: 2rem;
+}
+
+.wpforms-form label{
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  color: black;
+  line-height: 24px;
+  display: block;
+  width: 100%;
+}
+
+.wpforms-submit{
+  width: 50%;
+  padding: 12px;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  background: #000;
+  color: white;
+  margin: 12px 0px;
+}
+textarea.wpforms-field-large{
+height: clamp(300px, 25vh, 500px);
+  
+}
+
+
+.wpforms-error-container{
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.45;
+  padding: 1rem 1.2rem;
+  background: #55d17c;
+  margin: 2rem 0rem;
+}
+
+.wpforms-field-date-time-date-month,
+.wpforms-field-date-time-date-day,
+.wpforms-field-date-time-date-year{
+  width: 25%;
+  padding: 10px 10px !important;
+  font-size: 24px;
+  line-height: 36px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin-bottom: 2rem;
+  
+}
+
+.wpforms-field-date-time-date-sep{
+  font-size: 24px;
+  margin: 0px 1rem;
+}
+
+.wpforms-field.wpforms-field-checkbox ul{
+  margin: 0px; 
+  padding: 0px;
+  font-size: 1.5rem;
+}
+
+.wpforms-field.wpforms-field-checkbox ul li{
+  list-style: none;
+  margin: 0px; 
+  padding: 0px 0px 12px 0px;
+
+}
+
+.wpforms-field.wpforms-field-checkbox ul li label.wpforms-field-label-inline{
+  display: inline;
+  padding-left: 1rem;
+}
+
+input[type='checkbox']{
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.wpforms-field.wpforms-field-divider h3{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.wpforms-entry-preview.wpforms-entry-preview-basic {
+    background: #F5F5F5;
+    padding: 2rem;
+}
+
+.wpforms-entry-preview-label {
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.wpforms-entry-preview-value {
+    padding-bottom: 1rem;
+}
+
+
